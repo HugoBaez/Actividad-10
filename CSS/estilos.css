@@ -1,0 +1,157 @@
+body{
+    /*background: #FF6766;*/
+    background-image: url("img/fondo.jpg");
+    background-repeat:repeat ;
+   
+
+}
+h1,h2,h3,h4,h5{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.principal{
+	background: rgb(255, 255, 255);
+	margin: 10px auto;
+	padding: 10px;
+	border: 1px solid #CCC;
+	border-radius: 15px;
+	box-shadow: 5px 5px 8px #CCC;
+	display: block;
+	text-align: center;
+}
+
+.header{
+	background: #EB0000;
+}
+
+.barra{
+	background: #EBE817;
+	font: bold 14px verdana, sans-serif;
+
+}
+.gif{
+    margin: 20px;;
+    border-radius: 20px;
+    border-top: 10px solid transparent;
+    border-image: linear-gradient(to left, #3acfd5 0%, #1023a2 100%) 1; 
+    border-bottom: 10px solid transparent;
+
+}
+.gif img{
+    
+	max-width: 50%;
+	max-height: 40%;
+
+}
+.caja{
+    display: block;
+    border-radius: 50px 0 50px 0;
+    border: 10px solid #08649E;
+}
+.caja p{
+    margin: 20px;
+    text-align: left;
+    font-size: large;
+}
+.caja h1{
+    margin: 10px;
+    padding: 5px;
+    text-transform: uppercase ;
+
+}
+.regla{
+    color:#419E10;
+}
+
+.reglas ol{
+    text-align: left;
+	display: block;
+    padding: 10px 55px;
+}
+.reglas ol li{
+    margin-top: 10px;
+	text-align: left;
+}
+.izquierda{
+    text-align: left;
+    margin:20px 30px;
+    padding: 15px;
+    display: block;
+}
+
+.izquierda span{
+    display: block;
+}
+.izquierda ol{
+    margin-top: 5px;
+
+}
+.izquierda li{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.izquierda ul ol li{
+    margin-left: 10px;
+}
+
+.titulo_cat{
+    text-align: left;
+   font-weight: bold;
+    font-size: large;
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+.titulo_login{
+    color:#419E10;
+    font-size: large;
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.login{
+    background: rgb(255, 255, 255);
+    margin: 100px 20px;
+	padding: 10px;
+	border: 1px solid #CCC;
+	border-radius: 10px;
+	box-shadow: 5px 5px 8px #CCC,-5px -5px 8px #CCC ;
+
+	text-align: center;
+}
+.img-login{
+    background: white;
+    overflow: hidden;
+    position:relative;
+	border-radius: 50%;
+    border: 2px solid black;
+	width: 25%;
+	height: 25%;
+	overflow: hidden;
+	margin-top: -12%;
+}
+.link{
+
+	text-align: left;
+}
+.link a{
+    display: block;
+}
+.fondo1{
+    background:#419E10;
+}
+
+.fondo2{
+    background: #1023a2;
+}
+
+.label-login{
+	margin-right: 10px;
+	font-weight: bold;
+}
+.footer{
+	background: #EB0000;
+}
+.footer a{
+    margin-right: 5px;
+    color: white;
+}
